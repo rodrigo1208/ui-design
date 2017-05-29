@@ -1,0 +1,54 @@
+nav {
+  width: 100%;
+  background-color: #2e6da4;
+  padding: 0 100px 0 100px;
+  min-height: 80px;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  line-height: 80px;
+}
+
+#logo a{
+  color: #fff;
+}
+
+#logo a:hover{
+  text-decoration: none;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.nav li a{
+  color: #fff;
+}
+
+.nav li a:hover{
+  border-radius: 5px;
+  background-color: #5bc0de;
+}
+
+/* use media query to change the layout */
+@media  (min-width: 768px) {
+
+  .nav {
+    margin-top: -60px;
+  }
+
+  .left {
+      float: left;
+    }
+
+  .right {
+      float: right;
+    }
+}

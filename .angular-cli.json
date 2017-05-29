@@ -19,9 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "dist/css/styles.css",
+      ]
+      "scripts": [
+        "dist/js/bootstrap.min.js"
       ],
-      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -51,6 +53,10 @@
     }
   },
   "defaults": {
+    "serve": {
+      "port": 3000,
+      "host": "localhost"
+    },
     "styleExt": "css",
     "component": {}
   }
