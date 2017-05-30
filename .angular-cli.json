@@ -19,9 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "dist/css/styles.css",
-      ]
+        "dist/css/styles.css"
+      ],
       "scripts": [
+        "dist/js/jquery-2.2.3.min.js",
         "dist/js/bootstrap.min.js"
       ],
       "environmentSource": "environments/environment.ts",

@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background-color: #2e6da4;
+  background-color: #1976D2;
   padding: 0 100px 0 100px;
   min-height: 80px;
 }
@@ -34,7 +34,7 @@ nav {
 
 .nav li a:hover{
   border-radius: 5px;
-  background-color: #5bc0de;
+  background-color: #006064;
 }
 
 /* use media query to change the layout */

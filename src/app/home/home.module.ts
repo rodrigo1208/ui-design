@@ -1,12 +1,15 @@
 import {NgModule} from "@angular/core";
 import {NavComponent} from "./nav/nav.component";
+import {SideLeftComponent} from "./side-nav-left/side_left.component";
 
 @NgModule({
   declarations: [
-    NavComponent
+    NavComponent,
+    SideLeftComponent
   ],
   exports: [
-    NavComponent
+    NavComponent,
+    SideLeftComponent
   ]
 })
 export class HomeModule{
