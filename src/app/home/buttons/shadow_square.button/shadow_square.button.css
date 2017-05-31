@@ -1,0 +1,33 @@
+
+.container-shadow-square {
+  padding: 10px;
+}
+
+.shadow-square {
+  height: 100px;
+  background-color: #1565C0;
+  border: none;
+  border-radius: 5px;
+  color: #90CAF9;
+}
+
+.shadow-square:hover {
+  background-color: #90CAF9;
+  color: #1565C0;
+  -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.40);
+  -ms-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.40);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.40);
+  transition-duration: 0.3s;
+}
+
+.shadow-square:active{
+  background-color: #90CAF9;
+  color: #1565C0;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+
+.shadow-square:focus {
+  outline: 0;
+}

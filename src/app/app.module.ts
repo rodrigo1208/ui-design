@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {HomeModule} from "./home/home.module";
+import {ButtonsModule} from "./home/buttons/buttons.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {HomeModule} from "./home/home.module";
     BrowserModule,
     FormsModule,
     HttpModule,
-    HomeModule
+    HomeModule,
+    ButtonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
