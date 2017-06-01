@@ -1,0 +1,18 @@
+<nav-component></nav-component>
+
+<side-left [left]="left"></side-left>
+<div [@toLeft]="active" (click)="toggleLeft()" class="sider">
+  <div class="icon">
+    <span class="glyphicon glyphicon-circle-arrow-left"></span>
+    <br>
+    <span>|</span>
+    <br>
+    <span>|</span>
+    <br>
+    <span>|</span>
+    <br>
+    <span>|</span>
+    <br>
+  </div>
+</div>
+<wrapper [left]="left"></wrapper>

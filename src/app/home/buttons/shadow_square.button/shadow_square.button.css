@@ -3,12 +3,13 @@
   padding: 10px;
 }
 
+
 .shadow-square {
-  height: 100px;
   background-color: #1565C0;
   border: none;
   border-radius: 5px;
   color: #90CAF9;
+  white-space: nowrap;
 }
 
 .shadow-square:hover {
